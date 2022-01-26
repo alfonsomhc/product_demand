@@ -1,5 +1,5 @@
 # Forecasting Product Demand
-Prediction service for a product forecast model.
+Code for a a product forecast model that is deployed as a web API.
 
 ## Content
 Developed by the data scientist:
@@ -9,7 +9,7 @@ Developed by the data scientist:
  - requirements.txt: libraries required by the model
  - notebooks/: notebooks developed during data exploration and prototyping
 
-Code developed by platfom team
+Code developed by the platfom team:
  - mlops/: mlops framework code, in this example a logger and a prediction
    service
  - docker-compose.yaml
