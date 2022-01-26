@@ -1,5 +1,5 @@
 # Forecasting Product Demand
-Code for a a product forecast model that is deployed as a web API.
+Code for a product demand forecast model that is deployed as a web API.
 
 ## Content
 Developed by the data scientist:
