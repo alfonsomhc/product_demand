@@ -60,7 +60,7 @@ def _validate_input(data):
     if not isinstance(data, dict):
         raise ModelException("Data should be a dictionary")
     if not "n_weeks" in data.keys():
-        raise ModelException("Input dictionary should have a column 'n_weeks'")
+        raise ModelException("Input dictionary should have a key 'n_weeks'")
     if not isinstance(data["n_weeks"], int):
         raise ModelException("Parameter 'n_weeks' should be an int")
     if data["n_weeks"] <= 0:
